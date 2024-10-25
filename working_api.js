@@ -14,9 +14,9 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // Constants
-const MAX_RETRIES = 3;
+const MAX_RETRIES = 5;
 const RETRY_DELAY = 1000; // 1 second
-const FACE_MATCHER_THRESHOLD = 0.6;
+const FACE_MATCHER_THRESHOLD = 0.5;
 
 const app = express();
 
